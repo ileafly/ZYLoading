@@ -1,0 +1,36 @@
+{
+  "name": "ZYLoading",
+  "version": "0.1.0",
+  "summary": "A short description of ZYLoading.",
+  "homepage": "https://coding.net/u/ileafly/p/ZYLoading/git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luzy": "luzy@2345.com"
+  },
+  "source": {
+    "git": "https://git.coding.net/ileafly/ZYLoading.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "ZYLoading/Classes/**/*",
+  "resource_bundles": {
+    "ZYLoading": [
+      "ZYLoading/Assets/*.png"
+    ]
+  },
+  "public_header_files": "ZYLoading/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

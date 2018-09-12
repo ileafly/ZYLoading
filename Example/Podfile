@@ -1,0 +1,4 @@
+
+target 'ZYLoading_Example' do
+  pod 'ZYLoading', :path => '../'
+end
