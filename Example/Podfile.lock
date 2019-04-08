@@ -6,14 +6,18 @@ PODS:
 DEPENDENCIES:
   - ZYLoading (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
 EXTERNAL SOURCES:
   ZYLoading:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  ZYLoading: 0d98587497dd5588531b05d686c748cfdf7c857b
+  ZYLoading: 083382c30ec6b81befbd331c05d13c130914c353
 
 PODFILE CHECKSUM: 3ed3f559b2cd0c6ff5ac91ba713832bc95533e59
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

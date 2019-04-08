@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZYLoading/Classes/**/*'
   
-  s.resource_bundles = {
-      'ZYLoading' => ['ZYLoading/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #    'ZYLoading' => ['ZYLoading/Assets/*.png']
+  #}
 
   s.public_header_files = 'ZYLoading/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CoreFoundation'

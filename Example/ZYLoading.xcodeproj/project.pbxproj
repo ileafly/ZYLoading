@@ -160,7 +160,7 @@
 		A1312098C39DF196F99CF9FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AFDE610661E664E2A01FC3CB /* libPods-ZYLoading_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYLoading_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AD16285714B22047474882 /* Pods-ZYLoading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLoading_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYLoading_Example/Pods-ZYLoading_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D30E2BE7C2B02617179A7D5B /* ZYLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYLoading.podspec; path = ../ZYLoading.podspec; sourceTree = "<group>"; };
+		D30E2BE7C2B02617179A7D5B /* ZYLoading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYLoading.podspec; path = ../ZYLoading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,7 +356,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B551354C5E9E7EB11C9B0F4B /* [CP] Embed Pods Frameworks */,
 				C27A716B847EA8848375F9EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -505,21 +504,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B551354C5E9E7EB11C9B0F4B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYLoading_Example/Pods-ZYLoading_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C27A716B847EA8848375F9EE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,11 +511,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZYLoading_Example/Pods-ZYLoading_Example-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/ZYLoading/ZYLoading.bundle,
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZYLoading/ZYLoading.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZYLoading.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -2,7 +2,7 @@
   "name": "ZYLoading",
   "version": "0.1.0",
   "summary": "A short description of ZYLoading.",
-  "homepage": "https://coding.net/u/ileafly/p/ZYLoading/git",
+  "homepage": "https://github.com/luzhiyongGit/ZYLoading",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,7 +11,7 @@
     "luzy": "luzy@2345.com"
   },
   "source": {
-    "git": "https://git.coding.net/ileafly/ZYLoading.git",
+    "git": "https://github.com/luzhiyongGit/ZYLoading.git",
     "tag": "0.1.0"
   },
   "platforms": {
